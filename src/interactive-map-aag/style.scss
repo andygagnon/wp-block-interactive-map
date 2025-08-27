@@ -1,0 +1,33 @@
+/**
+ * The following styles apply to both the block in the editor and on the front end.
+ * This is where you put your main CSS for the block.
+ */
+
+.wp-block-create-block-interactive-map-aag {
+	// The main wrapper for the block.
+	border-radius: 12px;
+	box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+
+	// A small loading state visual.
+	&.is-loading {
+		min-height: 300px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	// The container for the Mapbox map.
+	.interactive-map-aag-map-container {
+		width: 100%;
+		min-height: 400px; // Ensure the map has a visible height.
+		border-radius: 10px;
+
+		// Mapbox GL JS adds its own elements, so we're styling the container.
+		.mapboxgl-canvas {
+			border-radius: 10px;
+		}
+	}
+}

@@ -1,0 +1,37 @@
+/*!************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/interactive-map-aag/editor.scss ***!
+  \************************************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles are applied only to the block in the editor.
+ * They help visually distinguish the block and provide a better editing experience.
+ */
+.wp-block-create-block-interactive-map-aag {
+  border: 2px dashed #a3a3a3;
+  padding: 1rem;
+  min-height: 200px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.wp-block-create-block-interactive-map-aag .interactive-map-aag-loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.wp-block-create-block-interactive-map-aag .interactive-map-aag-map-container {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  position: relative;
+}
+.wp-block-create-block-interactive-map-aag .interactive-map-aag-coords {
+  margin-top: 1rem;
+  font-size: 0.9em;
+  color: #555;
+}
+
+/*# sourceMappingURL=index.css.map*/
